@@ -82,10 +82,6 @@ The system connects **victims**, **rescuers**, and **relief points** through:
 
 ---
 
-
-
-  
-
 ## 📋 **Work Flow**
 1. **Landing Page**
 2. **Chat Bot:** Assistance via AI.
