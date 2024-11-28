@@ -1,0 +1,117 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+
+.top-nav {
+    background-color: #005F99;
+    color: white;
+    padding: 1px 20px;
+}
+.top-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.top-nav li {
+    margin: 0 15px;
+}
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.header {
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 80px; 
+text-align: center;
+background-color: #056baa; 
+color: white;
+font-size: 60px;
+font-weight: bold;
+letter-spacing: 2px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+transition: all 0.3s ease-in-out;
+}
+
+.header:hover {
+background-color: #45a049; /* Slight hover effect */
+transform: scale(1.05);
+}
+
+/* .header {
+  background-color: #2998dd;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 28px;
+  font-weight: bold;
+} */
+
+.container {
+  max-width: 800px;
+  margin-bottom: 100px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.patient-info, .medical-history {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #005F99;
+  margin-bottom: 10px;
+}
+
+.history-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.history-item h4 {
+  margin: 0 0 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #005F99;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color:#005F99;
+}
+
+
+
+
+
+footer {
+    background-color: #005f99;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
